@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    box-shadow: 0 0 8px #777;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 2em;
+}
+.logo {
+    font-size: 36px;
+    color: red;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 1em;
+}
+a {
+    text-decoration: none;
+    color:lightslategray;
+}
