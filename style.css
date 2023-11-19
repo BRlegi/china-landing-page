@@ -3,20 +3,25 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-image: url('img/background-chinese-art.jpg');
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav {
     display: flex;
-    box-shadow: 0 0 8px #777;
+    box-shadow: 0 0 8px #353434;
     justify-content: center;
     align-items: center;
     gap: 30em;
     padding: 8px;
+    background-color: white;
 }
 .logo {
     font-size: 36px;
     font-family: cursive;
-    color: red;
+    color: rgb(255, 0, 0);
     font-weight: bold;
 }
 ul {
@@ -39,7 +44,7 @@ a {
     justify-content: center;
     gap: 36px;
     padding: 90px;
-    background-color: rgb(236, 236, 236);
+    background-color: aliceblue;
 }
 .title {
     font-family: sans-serif;
@@ -94,6 +99,8 @@ span {
     align-items: center;
     gap: 2em;
     padding: 90px;
+    background-color: rgba(236, 236, 236, 0.596);
+    backdrop-filter: blur(5px);
 }
 .container {
     height: 300px;
@@ -118,7 +125,7 @@ span {
     justify-content: center;
     align-items: center;
     padding: 160px;
-    background-color: rgb(236, 236, 236);
+    
 }
 .phrase-container {
     display: flex;
@@ -128,33 +135,39 @@ span {
 }
 .message {
     display: flex;
+    color: white;
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-style: italic;
+    text-shadow: 2px 2px 3px black;
 }
-.font {
+.msg-font {
     display: flex;
+    color: white;
     align-self: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 1px 1px 2px black;
 }
 
 .signup-sector {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 160px;;
+    padding: 100px;;
+    background-color: aliceblue;
 }
 .sign-box {
-    border-radius: 25px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(167, 0, 0);
-    color: rgb(214, 214, 214);
-    padding: 30px;
+    background-color: rgb(197, 0, 0);
+    color: rgb(231, 231, 231);
+    backdrop-filter: blur(5px);
+    padding: 40px;
     width: 800px;
     gap: 6em;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,8 +181,8 @@ span {
     color: snow;
 }
 .sign-box button {
-    border-radius: 25px;
-    border: none;
+    border-radius: 15px;
+    border: 2px solid white;
     outline: none;
     transition-duration: 0.2s;
     background-color: red;
@@ -199,8 +212,8 @@ span {
     align-items: center;
     gap: 6px;
     padding: 16px;
-    background-color: rgb(117, 0, 0);
-    color: rgb(214, 214, 214);
+    background-color: rgb(240, 240, 240);
+    color: rgb(168, 1, 1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
